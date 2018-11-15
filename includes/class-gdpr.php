@@ -142,10 +142,10 @@ class GDPR {
 	public function set_locale() {
 
 		load_plugin_textdomain(
-			'gdpr',
-			false,
-			plugin_dir_url( dirname( __FILE__ ) ) . 'languages/'
-		);
+					'gdpr',
+					false,
+					'gdpr/languages/'
+				);
 
 	}
 
